@@ -9,35 +9,35 @@ function Projects() {
       description: 'A full-stack e-commerce platform built with React and Node.js',
       technologies: ['Html', 'Django', 'Bootstrap'],
       link:"https://github.com/viruss001/ecomm",
-      img:"public/Data/bruno-kelzer-LvySG1hvuzI-unsplash.jpg"
+      img:"./Data/bruno-kelzer-LvySG1hvuzI-unsplash.jpg"
     },
     {
       title: 'Food Ordring Application UI',
       description: 'A simple UI of Food Ordring App',
       technologies: ['React ',"Context-API", ],
       link:"https://github.com/viruss001/whatappminiProject",
-      img:"public/Data/food.jpg"
+      img:"./Data/food.jpg"
     },
     {
       title: 'Note App ',
       description: 'A simple Note application',
       technologies: ['React', 'Django', 'Bootstrap'],
       link:"https://github.com/viruss001/mynote",
-      img:"public/Data/notes.webp"
+      img:"./Data/notes.webp"
     },
     {
       title: 'Hotel Website',
       description: 'A simple Hotel searching application',
       technologies: ['HTML',  'Bootstrap','Django',],
       link:"https://github.com/viruss001/Hotel",
-      img:"public/Data/hotel.jpg"
+      img:"./Data/hotel.jpg"
     },
     {
       title: 'AI Agent',
       description: 'A simple Ai Agent for understanding concept of AI Agent',
       technologies: ['Python',  'Grok','API',],
       link:"https://github.com/viruss001/Hotel",
-      img:"public/Data/ai new.png"
+      img:"./Data/ai new.png"
     },
 
 
