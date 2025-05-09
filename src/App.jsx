@@ -99,7 +99,7 @@ function App() {
       
 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
 
-        <a href="src/assets/resume/Updated resume.pdf" download className="btn btn-primary px-8 py-3 text-lg shadow-md hover:scale-105 transition-transform">
+        <a href="public/Data/resume/Updated resume.pdf" download className="btn btn-primary px-8 py-3 text-lg shadow-md hover:scale-105 transition-transform">
           Resume
         </a>
         <a href="#Projects" className="btn btn-outline px-8 py-3 text-lg shadow-md hover:scale-105 transition-transform">
