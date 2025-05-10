@@ -1,6 +1,7 @@
 import React from 'react';
 import SpotlightCard from './Animations/SpotlightCard';
 import GradientText from './Animations/GradientText ';
+import FadeInSection from '../FadeInSection';
 
 function Projects() {
   const projects = [
@@ -48,18 +49,20 @@ function Projects() {
       <h2 className="text-3xl font-bold text-black mb-12 text-center">My Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 grid-container  sm:p-6">
         {projects.map((project, index) => (
+          <FadeInSection key={index} delay={index * 100}>
+
           <article key={index} className="overflow-hidden rounded-lg border w-[90%] grid-item  border-gray-100 bg-white shadow-sm hover:shadow-md transition-shadow">
             <img
               alt={project.title}
               src={project.img}
               className="project-image"
-            />
+              />
             <SpotlightCard
              className="w-full h-full  text-gray-200"
-                spotlightColor={"#2323FF"}
-                spotlightSize={200}
-                borderRadius={20}
-            >
+             spotlightColor={"#2323FF"}
+             spotlightSize={200}
+             borderRadius={20}
+             >
 
             
             <div className="p-4 sm:p-6 ">
@@ -94,6 +97,7 @@ function Projects() {
             </div>
             </SpotlightCard>
           </article>
+                </FadeInSection>
         ))}
       </div>
     </div>
