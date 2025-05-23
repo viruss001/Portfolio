@@ -7,11 +7,14 @@ import GradientText from './Animations/GradientText '
 
 const Skills = () => {
   const skills = [
-    { name: 'React', color: 'rgba(97, 218, 251, 0.3)', bgImage: '' },
-    { name: 'JavaScript', color: 'rgba(247, 223, 30, 0.3)', bgImage: '' },
-    { name: 'CSS', color: 'rgba(21, 114, 182, 0.3)', bgImage: '' },
-    { name: 'HTML', color: 'rgba(227, 79, 38, 0.3)', bgImage: '' },
-    { name: 'Python', color: 'rgba(55, 118, 171, 0.3)', bgImage: '' },
+    { name: 'Python', color: 'rgba(55, 118, 171, 0.3)' },
+    { name: 'JavaScript', color: 'rgba(247, 223, 30, 0.3)' },
+    { name: 'Django', color: 'rgba(247, 223, 30, 0.3)' },
+    { name: 'React', color: 'rgba(97, 218, 251, 0.3)' },
+    { name: 'Tailwind', color: 'rgba(55, 118, 171, 0.3)' },
+    { name: 'CSS3', color: 'rgba(21, 114, 182, 0.3)' },
+    { name: 'HTML5', color: 'rgba(227, 79, 38, 0.3)' },
+    { name: 'Django Rest Framework(DRF)', color: 'rgba(227, 79, 38, 0.3)' },
   ];
 
   return (
@@ -28,12 +31,7 @@ const Skills = () => {
                 borderRadius={20}
               >
                 <div className="absolute inset-0 w-full h-full overflow-hidden rounded-[16px]  " >
-                  {/* <img
-                    src={skill.bgImage}
-                    alt={`Background for ${skill.name}`}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  /> */}
+                 
                   <div className="absolute inset-0 bg-black/10 "></div>
                 </div>
                 <div className="relative z-10 h-full  text-white flex items-center justify-center p-4">
