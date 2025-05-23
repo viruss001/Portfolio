@@ -5,6 +5,11 @@ import FadeInSection from '../FadeInSection';
 
 function Projects() {
   const projects = [
+    {title: 'Youtube Video Downloader',
+      description: 'A full-stack You Tube Video downloader ',
+      technologies: ['Python', 'Django', 'Tailwind','React'],
+      link:"https://github.com/viruss001/ecomm",
+      img:"./Data/youtubelogo.svg"},
     {
       title: 'E-commerce Website',
       description: 'A full-stack e-commerce platform built with React and Node.js',
