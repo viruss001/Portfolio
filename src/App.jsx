@@ -99,7 +99,7 @@ function App() {
       
 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
 
-        <a href="./Data/resume/Suraj TIwari.pdf" download className="btn btn-primary px-8 py-3 text-lg shadow-md hover:scale-105 transition-transform">
+        <a href="./Data/resume/Suraj TIwari.pdf" download className="btn bg-black text-white px-8 py-3 text-lg shadow-md hover:scale-105 transition-transform">
           <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 18">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 1v11m0 0 4-4m-4 4L4 8m11 4v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3"/>
 </svg>My Resume
